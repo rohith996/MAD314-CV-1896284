@@ -1,1 +1,95 @@
-hello this is my new cv!!
+Commands used for the assignment.
+
+Steps for Task accomplishment:-
+
+
+1) command:   mkdir cv
+   Purpose:   to create directory.
+
+2) Command:   cd cv
+   Purpose:   to change the directory
+
+
+3) Command:   git add instructions.txt
+   Purpose:   to add file to git.
+   Response:  added file to git.
+
+4) Command:   $ git commit -m "added one line"
+   Purpose:   to commit the current file.
+   Response:  On branch master
+		Untracked files:
+       		rohithcv.docx
+	        report.txt
+
+5) Command:   git remote add origin https://github.com/rohith996/MAD314-CV--1896284-.git
+   Purpose:   Adds a remote repo to a local repo.
+   Response:  added a remote repo to our local repo.
+
+6) Command:   git push -u origin master
+   Purpose:   to push our files to remote repo.
+   Response:  fatal: HttpRequestException encountered. An error occurred while sending the request.
+		Username for 'https://github.com': rohith996
+		Counting objects: 3, done.
+		Delta compression using up to 4 threads.
+		Compressing objects: 100% (2/2), done.
+		Writing objects: 100% (3/3), 1.24 KiB | 1.24 MiB/s, done.
+		Total 3 (delta 0), reused 0 (delta 0)
+		To https://github.com/rohith996/MAD314-CV-1896284-.git
+		 * [new branch]      master -> master
+		Branch master set up to track remote branch master from origin.
+
+7) Command:   vi report.txt.
+   Purpose:   to create a file.
+   Response:  file created
+
+8) Command:  git add report.txt 
+   Purpose:   to add file to git.
+   Response:  added file to git.
+
+9) Command:   $ git commit -m "added"
+   Purpose:   to commit the current file.
+   Response:  [master e5a1fed] report generated
+ 	      1 file changed, 12 insertions(+)
+              create mode 100644 report.txt
+
+10) Command:   git push
+   Purpose:   to push our files to remote repo.
+   Response:  fatal: HttpRequestException encountered.
+   		An error occurred while sending the request.
+		Username for 'https://github.com': rohith996
+		Counting objects: 3, done.
+		Delta compression using up to 4 threads.
+		Compressing objects: 100% (3/3), done.
+		Writing objects: 100% (3/3), 480 bytes | 480.00 KiB/s, done.
+		Total 3 (delta 0), reused 0 (delta 0)
+		To https://github.com/rohith996/MAD314-CV-1896284-.git
+		   ce9d849..e5a1fed  master -> master
+
+11) Command:   git add rohithcv.docx
+   Purpose:   to add file to git.
+   Response:  added file to git.
+
+12) Command:   git commit -m "added new cv"
+   Purpose:   to commit the current file.
+   Response:  [master 8574993] CV Created
+		 1 file changed, 0 insertions(+), 0 deletions(-)
+		 create mode 100644 rohithcv.docx
+
+13) Command:   git push
+   Purpose:   to push our files to remote repo.
+   Response:  fatal: HttpRequestException encountered.
+	      An error occurred while sending the request.
+	      Username for 'https://github.com': rohith996
+	      Counting objects: 3, done.
+	      Delta compression using up to 4 threads.
+	      Compressing objects: 100% (3/3), done.
+	      Writing objects: 100% (3/3), 14.43 KiB | 14.43 MiB/s, done.
+	      Total 3 (delta 0), reused 0 (delta 0)
+	      To https://github.com/rohith9/MAD314-CV--1896284-.git
+	      e5a1fed..8574993  master -> master
+
+CV uploaded with instruction
+
+
+
+
